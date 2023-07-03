@@ -18,3 +18,6 @@ function loadNextImage() {
     };
     img.src = 'https://unsplash.it/' + width + '/' + height + '?random=' + new Date().getTime();
 }
+
+  // Перенаправление на index.php
+  window.location.replace("index.php");
